@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Noto Sans JP', 'Hiragino Sans', 'Yu Gothic', sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "palt";
+    letter-spacing: 0.02em;
+  }
+  body {
+    background-color: #F0EDE8;
+    overscroll-behavior: none;
+  }
+  * {
+    -webkit-overflow-scrolling: touch;
+  }
+  /* スクロールバー非表示（モバイル風） */
+  ::-webkit-scrollbar { display: none; }
+  * { scrollbar-width: none; }
+}
+
+/* 100%制覇キラキラ */
+@keyframes shimmer {
+  0%   { opacity: 0.6; }
+  50%  { opacity: 1;   }
+  100% { opacity: 0.6; }
+}
+.shimmer-path {
+  animation: shimmer 1.8s ease-in-out infinite;
+}

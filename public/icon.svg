@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 背景 -->
+  <rect width="512" height="512" rx="112" fill="#F0EDE8"/>
+  <!-- ピン本体 -->
+  <path d="M256 72 C152 72 92 140 92 224 C92 310 256 448 256 448 C256 448 420 310 420 224 C420 140 360 72 256 72Z" fill="#60A5FA"/>
+  <!-- 内円（白） -->
+  <circle cx="256" cy="210" r="68" fill="white"/>
+  <!-- カラードット（旅の色） -->
+  <circle cx="224" cy="192" r="18" fill="#FB923C"/>
+  <circle cx="288" cy="192" r="18" fill="#A78BFA"/>
+  <circle cx="256" cy="232" r="18" fill="#4ADE80"/>
+  <!-- 影 -->
+  <ellipse cx="256" cy="456" rx="52" ry="14" fill="#D4CFC9"/>
+</svg>
